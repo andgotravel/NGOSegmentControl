@@ -1,0 +1,14 @@
+PODS:
+  - NGOSegmentControl (1.0.0)
+
+DEPENDENCIES:
+  - NGOSegmentControl (from `../`)
+
+EXTERNAL SOURCES:
+  NGOSegmentControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NGOSegmentControl: 8583a481170069ec85eef6acc28c9b80548e8aa2
+
+COCOAPODS: 0.36.3

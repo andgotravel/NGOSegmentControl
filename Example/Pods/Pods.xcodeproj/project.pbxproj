@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3980C684F319AC85DE76EE6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B35BE3ED112E55E6B4D0B4 /* Foundation.framework */; };
+		3A56DC26F28F5CDCDBBDF501 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6929912B2DE99CBD945C713 /* CoreGraphics.framework */; };
+		622E10A6801A2C46410ED090 /* Pods-NGOSegmentControl-NGOSegmentControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B4D08D8AD37D47FB792E50 /* Pods-NGOSegmentControl-NGOSegmentControl-dummy.m */; };
+		8969603828E808AB5DD9117D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B35BE3ED112E55E6B4D0B4 /* Foundation.framework */; };
+		A3BBD0271E5641456932F059 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B5142F4E8D502CDFAB3B10 /* UIKit.framework */; };
+		A6DC2B4D7B5548E4E236D02A /* NGOSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD097899FADFA371A8F53AB /* NGOSegmentControl.h */; };
+		B50EEE459B4BEFB5B9B55281 /* Pods-NGOSegmentControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 705EBD5EAAF1FDD0C846AAE3 /* Pods-NGOSegmentControl-dummy.m */; };
+		C8C4B759DA383C435D1FBD6D /* NGOSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 30463F54EEC407F3CF7B5765 /* NGOSegmentControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD28B5B9893BE25CE10505A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3EEDCE01693C4744CB0672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 999D21900DEAEE12B12F3701;
+			remoteInfo = "Pods-NGOSegmentControl-NGOSegmentControl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2420B0BFCE0C917326AE11A1 /* Pods-NGOSegmentControl-NGOSegmentControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGOSegmentControl-NGOSegmentControl-prefix.pch"; sourceTree = "<group>"; };
+		24AC9860E5CD52D0D11031D4 /* Pods-NGOSegmentControl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NGOSegmentControl-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29B35BE3ED112E55E6B4D0B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		30463F54EEC407F3CF7B5765 /* NGOSegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NGOSegmentControl.m; sourceTree = "<group>"; };
+		52628221501FFD0F540C70E2 /* Pods-NGOSegmentControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGOSegmentControl.debug.xcconfig"; sourceTree = "<group>"; };
+		52B5142F4E8D502CDFAB3B10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		59B4D08D8AD37D47FB792E50 /* Pods-NGOSegmentControl-NGOSegmentControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NGOSegmentControl-NGOSegmentControl-dummy.m"; sourceTree = "<group>"; };
+		6AAFFEF340F0D0616E281972 /* Pods-NGOSegmentControl-NGOSegmentControl-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGOSegmentControl-NGOSegmentControl-Private.xcconfig"; sourceTree = "<group>"; };
+		705EBD5EAAF1FDD0C846AAE3 /* Pods-NGOSegmentControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NGOSegmentControl-dummy.m"; sourceTree = "<group>"; };
+		773AF5EDDE023ACFA8941B3E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3A6CEB12A3EB5F7EDEC778E /* Pods-NGOSegmentControl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NGOSegmentControl-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9152AC06B46A70793AF6188 /* Pods-NGOSegmentControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGOSegmentControl.release.xcconfig"; sourceTree = "<group>"; };
+		B8B08CDEF623C55CBE3E27BE /* Pods-NGOSegmentControl-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGOSegmentControl-environment.h"; sourceTree = "<group>"; };
+		BB882C31D871FFE48BFBD54A /* libPods-NGOSegmentControl-NGOSegmentControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NGOSegmentControl-NGOSegmentControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD097899FADFA371A8F53AB /* NGOSegmentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NGOSegmentControl.h; sourceTree = "<group>"; };
+		CE18993CEA3C5CAD120F972C /* libPods-NGOSegmentControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NGOSegmentControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03149E9B0CF5609F44A3276 /* Pods-NGOSegmentControl-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGOSegmentControl-resources.sh"; sourceTree = "<group>"; };
+		E6929912B2DE99CBD945C713 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EB71CF954AE6FFFBFFD56A31 /* Pods-NGOSegmentControl-NGOSegmentControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGOSegmentControl-NGOSegmentControl.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B73341CC1CC5F198CBCB5EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8969603828E808AB5DD9117D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8DA6BBBE7F011B6899107A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A56DC26F28F5CDCDBBDF501 /* CoreGraphics.framework in Frameworks */,
+				3980C684F319AC85DE76EE6D /* Foundation.framework in Frameworks */,
+				A3BBD0271E5641456932F059 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0254D740F30B23B3B10CBB0C /* NGOSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				B3E7EE53CD72D30ED5D54928 /* Pod */,
+				1B3E58FD6FF4AD0954401602 /* Support Files */,
+			);
+			name = NGOSegmentControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1B3E58FD6FF4AD0954401602 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB71CF954AE6FFFBFFD56A31 /* Pods-NGOSegmentControl-NGOSegmentControl.xcconfig */,
+				6AAFFEF340F0D0616E281972 /* Pods-NGOSegmentControl-NGOSegmentControl-Private.xcconfig */,
+				59B4D08D8AD37D47FB792E50 /* Pods-NGOSegmentControl-NGOSegmentControl-dummy.m */,
+				2420B0BFCE0C917326AE11A1 /* Pods-NGOSegmentControl-NGOSegmentControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-NGOSegmentControl-NGOSegmentControl";
+			sourceTree = "<group>";
+		};
+		91ACD4318B09F4933A07BCB6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E6929912B2DE99CBD945C713 /* CoreGraphics.framework */,
+				29B35BE3ED112E55E6B4D0B4 /* Foundation.framework */,
+				52B5142F4E8D502CDFAB3B10 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B0655DB924B6F77C914D5E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7BE74EA44FC6B040B2275C7 /* Pods-NGOSegmentControl */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A7BE74EA44FC6B040B2275C7 /* Pods-NGOSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				24AC9860E5CD52D0D11031D4 /* Pods-NGOSegmentControl-acknowledgements.markdown */,
+				A3A6CEB12A3EB5F7EDEC778E /* Pods-NGOSegmentControl-acknowledgements.plist */,
+				705EBD5EAAF1FDD0C846AAE3 /* Pods-NGOSegmentControl-dummy.m */,
+				B8B08CDEF623C55CBE3E27BE /* Pods-NGOSegmentControl-environment.h */,
+				D03149E9B0CF5609F44A3276 /* Pods-NGOSegmentControl-resources.sh */,
+				52628221501FFD0F540C70E2 /* Pods-NGOSegmentControl.debug.xcconfig */,
+				A9152AC06B46A70793AF6188 /* Pods-NGOSegmentControl.release.xcconfig */,
+			);
+			name = "Pods-NGOSegmentControl";
+			path = "Target Support Files/Pods-NGOSegmentControl";
+			sourceTree = "<group>";
+		};
+		B3E7EE53CD72D30ED5D54928 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F65FB05E5636805C108D0996 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BDE35E0B3B8D923EB3A2BEDD = {
+			isa = PBXGroup;
+			children = (
+				773AF5EDDE023ACFA8941B3E /* Podfile */,
+				DA709635C78E902883854563 /* Development Pods */,
+				DE93F6D540D4228736608E5A /* Frameworks */,
+				F4BE132FDF7DD5CCAEAE818A /* Products */,
+				9B0655DB924B6F77C914D5E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA709635C78E902883854563 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0254D740F30B23B3B10CBB0C /* NGOSegmentControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE93F6D540D4228736608E5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91ACD4318B09F4933A07BCB6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4BE132FDF7DD5CCAEAE818A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE18993CEA3C5CAD120F972C /* libPods-NGOSegmentControl.a */,
+				BB882C31D871FFE48BFBD54A /* libPods-NGOSegmentControl-NGOSegmentControl.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F65FB05E5636805C108D0996 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCD097899FADFA371A8F53AB /* NGOSegmentControl.h */,
+				30463F54EEC407F3CF7B5765 /* NGOSegmentControl.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26A72538BF43D6F8560B71F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DC2B4D7B5548E4E236D02A /* NGOSegmentControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7183E46F7D94E4C35F719014 /* Pods-NGOSegmentControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F6B3F8EE79B585C185185C /* Build configuration list for PBXNativeTarget "Pods-NGOSegmentControl" */;
+			buildPhases = (
+				E9464ACBBED451BA5D879B5C /* Sources */,
+				B73341CC1CC5F198CBCB5EFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D067136B5CFFD58AABBF497 /* PBXTargetDependency */,
+			);
+			name = "Pods-NGOSegmentControl";
+			productName = "Pods-NGOSegmentControl";
+			productReference = CE18993CEA3C5CAD120F972C /* libPods-NGOSegmentControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		999D21900DEAEE12B12F3701 /* Pods-NGOSegmentControl-NGOSegmentControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E2E55BFEC12A7A1EFD39CE /* Build configuration list for PBXNativeTarget "Pods-NGOSegmentControl-NGOSegmentControl" */;
+			buildPhases = (
+				E4873684C81B882177F2B3E3 /* Sources */,
+				BF8DA6BBBE7F011B6899107A /* Frameworks */,
+				26A72538BF43D6F8560B71F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NGOSegmentControl-NGOSegmentControl";
+			productName = "Pods-NGOSegmentControl-NGOSegmentControl";
+			productReference = BB882C31D871FFE48BFBD54A /* libPods-NGOSegmentControl-NGOSegmentControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3EEDCE01693C4744CB0672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 94DA07C36F09EB9FC9232B0C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDE35E0B3B8D923EB3A2BEDD;
+			productRefGroup = F4BE132FDF7DD5CCAEAE818A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7183E46F7D94E4C35F719014 /* Pods-NGOSegmentControl */,
+				999D21900DEAEE12B12F3701 /* Pods-NGOSegmentControl-NGOSegmentControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4873684C81B882177F2B3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C4B759DA383C435D1FBD6D /* NGOSegmentControl.m in Sources */,
+				622E10A6801A2C46410ED090 /* Pods-NGOSegmentControl-NGOSegmentControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9464ACBBED451BA5D879B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50EEE459B4BEFB5B9B55281 /* Pods-NGOSegmentControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D067136B5CFFD58AABBF497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NGOSegmentControl-NGOSegmentControl";
+			target = 999D21900DEAEE12B12F3701 /* Pods-NGOSegmentControl-NGOSegmentControl */;
+			targetProxy = FD28B5B9893BE25CE10505A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000695A1123338D1B1F34568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAFFEF340F0D0616E281972 /* Pods-NGOSegmentControl-NGOSegmentControl-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NGOSegmentControl-NGOSegmentControl/Pods-NGOSegmentControl-NGOSegmentControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B4B1C662768044BB45B199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B657E5D6BA84FB5EECDEA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAFFEF340F0D0616E281972 /* Pods-NGOSegmentControl-NGOSegmentControl-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NGOSegmentControl-NGOSegmentControl/Pods-NGOSegmentControl-NGOSegmentControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A8EDEC0AD36A2ADDE81AA83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9152AC06B46A70793AF6188 /* Pods-NGOSegmentControl.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AB4E620142DFB084CE6CE3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52628221501FFD0F540C70E2 /* Pods-NGOSegmentControl.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E3133C05E874AA57AF7D6C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80E2E55BFEC12A7A1EFD39CE /* Build configuration list for PBXNativeTarget "Pods-NGOSegmentControl-NGOSegmentControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000695A1123338D1B1F34568 /* Debug */,
+				5B657E5D6BA84FB5EECDEA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DA07C36F09EB9FC9232B0C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4B1C662768044BB45B199F /* Debug */,
+				E3133C05E874AA57AF7D6C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F6B3F8EE79B585C185185C /* Build configuration list for PBXNativeTarget "Pods-NGOSegmentControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4E620142DFB084CE6CE3D6 /* Debug */,
+				A8EDEC0AD36A2ADDE81AA83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3EEDCE01693C4744CB0672 /* Project object */;
+}
