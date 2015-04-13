@@ -21,8 +21,8 @@
     [super viewDidLoad];
 }
 
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     
     [self setupBackGradient];
     [self setupSegmentControl];
@@ -41,7 +41,6 @@
     self.segmentControl.firstSegmentText    = @"First";
     self.segmentControl.secondSegmentText   = @"Second";
     self.segmentControl.delegate            = self;
-    [self.segmentControl setup];
 }
 
 #pragma mark - NGOSegmentControl Delegate

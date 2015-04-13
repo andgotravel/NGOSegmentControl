@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "NGOSegmentControl"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A control that mimics the UISegmentControl behaviour but simply consists of 2 buttons."
   s.homepage         = "https://github.com/andgotravel/NGOSegmentControl"
   s.license          = 'MIT'

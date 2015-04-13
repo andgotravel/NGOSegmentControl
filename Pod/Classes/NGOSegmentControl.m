@@ -68,6 +68,12 @@
     [self setup];
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+    [self setup];
+}
+
 #pragma mark - Setters
 
 - (void)setSelectedBackgroundColor:(UIColor *)newSelectedBackgroundColor {

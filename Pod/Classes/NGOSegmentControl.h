@@ -20,10 +20,10 @@ typedef NS_ENUM(NSInteger, NGOSegmentControlSelected) {
 
 @property (nonatomic) id <NGOSegmentControlDelegate>    delegate;
 @property (nonatomic) NGOSegmentControlSelected         selectedButton;
+@property (strong, nonatomic) UIFont                    *buttonTitleFont;
 @property (strong, nonatomic) IBInspectable UIColor     *buttonTitleColor;
 @property (strong, nonatomic) IBInspectable UIColor     *selectedBackgroundColor;
 @property (strong, nonatomic) IBInspectable UIColor     *midSeparatorColor;
-@property (strong, nonatomic) IBInspectable UIFont      *buttonTitleFont;
 @property (strong, nonatomic) IBInspectable NSString    *firstSegmentText;
 @property (strong, nonatomic) IBInspectable NSString    *secondSegmentText;
 
